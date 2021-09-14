@@ -1,0 +1,34 @@
+{
+  "devDependencies": {
+    "@binance-chain/commitlint-config": "^0.3.0",
+    "@binance-chain/eslint-config": "^0.3.0",
+    "@binance-chain/prettier-config": "^0.3.0",
+    "husky": "^7.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint --fix",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "post-merge": "yarn"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@binance-chain/commitlint-config"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "@binance-chain/eslint-config"
+    ],
+    "rules": {
+      "import/order": [
+        "error",
+        {
+          "newlines-between": "always"
+        }
+      ]
+    }
+  },
+  "prettier": "@binance-chain/prettier-config"
+}
