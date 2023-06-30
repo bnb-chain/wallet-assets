@@ -1,4 +1,4 @@
-This project is used by our [multichain API](https://github.com/binance-chain/multichain-api). It
+This project is used by our [multichain API](https://github.com/bnb-chain/multichain-api). It
 contains asset icons to replace the default asset icon from TrustWallet.
 
 ## Contributing
