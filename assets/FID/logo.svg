@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="fidurisBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04A0FF"/>
+      <stop offset="28%" stop-color="#02ACFF"/>
+      <stop offset="48%" stop-color="#068CFF"/>
+      <stop offset="63%" stop-color="#0055E8"/>
+      <stop offset="76%" stop-color="#0039C8"/>
+      <stop offset="100%" stop-color="#0039C8"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#fidurisBlue)"
+        d="M174 12H68L31 37V193L56 168V125L88 124L119 93L143 63L57 61L75 43H150L174 12Z"/>
+</svg>
