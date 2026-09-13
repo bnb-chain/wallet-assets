@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">SNR-VAULT Wallet Icon</title>
+  <desc id="desc">Pure vector SNR-VAULT wallet icon with crown, shield, vault door, handshake motif, gold and electric cyan accents.</desc>
+
+  <defs>
+    <linearGradient id="goldA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff7b2"/>
+      <stop offset="16%" stop-color="#ffd84d"/>
+      <stop offset="42%" stop-color="#ffb400"/>
+      <stop offset="68%" stop-color="#b87500"/>
+      <stop offset="84%" stop-color="#ffd84d"/>
+      <stop offset="100%" stop-color="#fff1a3"/>
+    </linearGradient>
+    <linearGradient id="goldB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff9d7"/>
+      <stop offset="25%" stop-color="#ffd83a"/>
+      <stop offset="55%" stop-color="#c98900"/>
+      <stop offset="78%" stop-color="#ffcc00"/>
+      <stop offset="100%" stop-color="#8f5b00"/>
+    </linearGradient>
+    <linearGradient id="cyanA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d7ffff"/>
+      <stop offset="20%" stop-color="#5effff"/>
+      <stop offset="55%" stop-color="#00f2ff"/>
+      <stop offset="100%" stop-color="#0088a8"/>
+    </linearGradient>
+    <radialGradient id="darkCore" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#16324a"/>
+      <stop offset="45%" stop-color="#08131f"/>
+      <stop offset="100%" stop-color="#000205"/>
+    </radialGradient>
+    <filter id="cyanGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Outer medallion -->
+  <circle cx="256" cy="256" r="228" fill="url(#darkCore)" stroke="url(#goldA)" stroke-width="15"/>
+  <circle cx="256" cy="256" r="208" fill="none" stroke="#5d3b00" stroke-width="5"/>
+  <circle cx="256" cy="256" r="196" fill="none" stroke="url(#cyanA)" stroke-width="6" filter="url(#cyanGlow)"/>
+
+  <!-- Decorative ring segments -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M115 182 A175 175 0 0 1 165 120" stroke="url(#goldA)" stroke-width="10"/>
+    <path d="M347 120 A175 175 0 0 1 397 182" stroke="url(#goldA)" stroke-width="10"/>
+    <path d="M100 316 A175 175 0 0 0 150 385" stroke="url(#goldA)" stroke-width="10"/>
+    <path d="M362 385 A175 175 0 0 0 412 316" stroke="url(#goldA)" stroke-width="10"/>
+  </g>
+
+  <!-- Crown -->
+  <g filter="url(#softShadow)">
+    <path d="M165 125
+             L190 79
+             L226 117
+             L256 58
+             L286 117
+             L322 79
+             L347 125
+             L334 160
+             L178 160 Z"
+          fill="url(#goldB)" stroke="#fff2a0" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M180 139 H332 L326 156 H186 Z"
+          fill="#8b5b00" opacity="0.65"/>
+    <circle cx="190" cy="79" r="6" fill="#00f2ff"/>
+    <circle cx="256" cy="58" r="7" fill="#fff6b5"/>
+    <circle cx="322" cy="79" r="6" fill="#00f2ff"/>
+  </g>
+
+  <!-- Shield body -->
+  <path d="M256 142
+           C306 142 349 156 382 178
+           L369 298
+           C363 355 324 404 256 438
+           C188 404 149 355 143 298
+           L130 178
+           C163 156 206 142 256 142 Z"
+        fill="#02070d" stroke="url(#goldA)" stroke-width="16" stroke-linejoin="round"/>
+
+  <!-- Shield cyan inset -->
+  <path d="M256 163
+           C300 163 336 174 361 191
+           L351 292
+           C346 338 315 378 256 408
+           C197 378 166 338 161 292
+           L151 191
+           C176 174 212 163 256 163 Z"
+        fill="none" stroke="url(#cyanA)" stroke-width="7" filter="url(#cyanGlow)"/>
+
+  <!-- Vault door -->
+  <circle cx="256" cy="274" r="100" fill="#08111b" stroke="url(#goldA)" stroke-width="12"/>
+  <circle cx="256" cy="274" r="78" fill="none" stroke="url(#cyanA)" stroke-width="6" filter="url(#cyanGlow)"/>
+  <circle cx="256" cy="274" r="59" fill="#0a1117" stroke="url(#goldB)" stroke-width="10"/>
+
+  <!-- Vault spokes -->
+  <g stroke="url(#goldA)" stroke-width="12" stroke-linecap="round">
+    <path d="M256 215 V187"/>
+    <path d="M256 333 V361"/>
+    <path d="M197 274 H169"/>
+    <path d="M315 274 H343"/>
+    <path d="M214 232 L194 212"/>
+    <path d="M298 316 L318 336"/>
+    <path d="M298 232 L318 212"/>
+    <path d="M214 316 L194 336"/>
+  </g>
+
+  <!-- Side hinge details -->
+  <g fill="url(#goldB)" stroke="#6f4700" stroke-width="3">
+    <rect x="174" y="223" width="17" height="102" rx="7"/>
+    <rect x="321" y="223" width="17" height="102" rx="7"/>
+    <circle cx="182.5" cy="241" r="7"/>
+    <circle cx="182.5" cy="307" r="7"/>
+    <circle cx="329.5" cy="241" r="7"/>
+    <circle cx="329.5" cy="307" r="7"/>
+  </g>
+
+  <!-- SNR monogram -->
+  <g filter="url(#softShadow)">
+    <text x="256" y="292" text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="86" font-weight="900"
+          letter-spacing="-4"
+          fill="url(#goldA)" stroke="#5b3900" stroke-width="4" paint-order="stroke">
+      SNR
+    </text>
+  </g>
+
+  <!-- Handshake motif -->
+  <g transform="translate(0,6)" fill="url(#goldB)" stroke="#5e3a00" stroke-width="5" stroke-linejoin="round">
+    <path d="M214 291
+             C228 278 238 276 249 283
+             L258 289
+             L269 282
+             C281 275 292 278 304 291
+             L288 307
+             C280 315 270 317 261 311
+             L256 308
+             L251 311
+             C242 317 232 315 224 307 Z"/>
+    <path d="M224 307 L236 320 C241 325 248 325 252 320 L256 316"/>
+    <path d="M288 307 L276 320 C271 325 264 325 260 320 L256 316"/>
+    <circle cx="242" cy="320" r="5"/>
+    <circle cx="270" cy="320" r="5"/>
+  </g>
+
+  <!-- Small side bolts -->
+  <g fill="#ffcc00" stroke="#6b4300" stroke-width="3">
+    <circle cx="151" cy="274" r="7"/>
+    <circle cx="361" cy="274" r="7"/>
+  </g>
+
+  <!-- Lower accent -->
+  <path d="M209 390 H303" stroke="url(#cyanA)" stroke-width="7" stroke-linecap="round" filter="url(#cyanGlow)"/>
+  <path d="M226 406 H286" stroke="url(#goldA)" stroke-width="5" stroke-linecap="round"/>
+</svg>
