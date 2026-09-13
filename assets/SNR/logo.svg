@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">SNR-VAULT</title>
+<desc id="desc">SNR-VAULT sovereign vault shield emblem in gold and electric cyan.</desc>
+<defs>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#fff2a8"/><stop offset="0.28" stop-color="#ffcc00"/>
+<stop offset="0.62" stop-color="#d99a00"/><stop offset="1" stop-color="#fff0a0"/>
+</linearGradient>
+<linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#b9ffff"/><stop offset="0.35" stop-color="#00f2ff"/><stop offset="1" stop-color="#008fb3"/>
+</linearGradient>
+<radialGradient id="core" cx="50%" cy="42%" r="65%">
+<stop offset="0" stop-color="#10223a"/><stop offset="0.58" stop-color="#04101b"/><stop offset="1" stop-color="#000205"/>
+</radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<circle cx="256" cy="256" r="226" fill="url(#core)" stroke="url(#gold)" stroke-width="14"/>
+<circle cx="256" cy="256" r="204" fill="none" stroke="#00f2ff" stroke-width="4" opacity=".8" filter="url(#glow)"/>
+<path d="M170 116 L205 68 L247 111 L292 64 L333 113 L366 80 L352 148 L160 148 Z"
+ fill="url(#gold)" stroke="#fff1a0" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="205" cy="67" r="8" fill="#00f2ff"/><circle cx="292" cy="63" r="8" fill="#00f2ff"/><circle cx="366" cy="79" r="8" fill="#00f2ff"/>
+<path d="M256 139 C303 139 346 154 382 176 L371 295 C365 360 321 408 256 440 C191 408 147 360 141 295 L130 176 C166 154 209 139 256 139 Z"
+ fill="#02070d" stroke="url(#gold)" stroke-width="16" stroke-linejoin="round"/>
+<path d="M167 214 H206 M306 214 H345 M164 278 H202 M310 278 H348"
+ stroke="#00f2ff" stroke-width="10" stroke-linecap="round" filter="url(#glow)"/>
+<circle cx="164" cy="214" r="7" fill="#00f2ff"/><circle cx="348" cy="278" r="7" fill="#00f2ff"/>
+<circle cx="256" cy="274" r="105" fill="#07121c" stroke="url(#gold)" stroke-width="14"/>
+<circle cx="256" cy="274" r="82" fill="none" stroke="url(#cyan)" stroke-width="10" filter="url(#glow)"/>
+<circle cx="256" cy="274" r="54" fill="#02070d" stroke="url(#gold)" stroke-width="10"/>
+<g stroke="url(#gold)" stroke-width="14" stroke-linecap="round">
+<path d="M256 220 V185"/><path d="M256 328 V363"/><path d="M202 274 H167"/><path d="M310 274 H345"/>
+<path d="M218 236 L193 211"/><path d="M294 312 L319 337"/><path d="M294 236 L319 211"/><path d="M218 312 L193 337"/>
+</g>
+<circle cx="256" cy="274" r="31" fill="#000205" stroke="#00f2ff" stroke-width="6" filter="url(#glow)"/>
+<text x="256" y="283" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="800" fill="#ffcc00">SNR</text>
+<path d="M205 395 H307" stroke="#00f2ff" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+<path d="M225 412 H287" stroke="#ffcc00" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+</svg>
