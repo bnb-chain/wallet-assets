@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="cloudStroke" x1="4" y1="5" x2="27" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b5fb8"/>
+      <stop offset="1" stop-color="#061c55"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="8" y1="10" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dff7ff"/>
+      <stop offset="0.45" stop-color="#72cfff"/>
+      <stop offset="1" stop-color="#0097e8"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="12" y1="7" x2="20" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d8fe7"/>
+      <stop offset="1" stop-color="#0750a6"/>
+    </linearGradient>
+    <filter id="softShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="0.55" stdDeviation="0.55" flood-color="#08204f" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- white icon canvas -->
+  <rect width="32" height="32" rx="0" fill="#ffffff"/>
+
+  <!-- cloud -->
+  <path
+    d="M10.2 22.6
+       C6.6 22.6 4.1 20.4 4.1 17.4
+       C4.1 14.5 6.3 12.3 9.3 12.0
+       C9.8 8.0 12.5 5.6 16.0 5.6
+       C19.7 5.6 22.5 8.2 22.9 12.1
+       C26.0 12.2 28.2 14.4 28.2 17.5
+       C28.2 20.4 26.0 22.6 22.8 22.6
+       Z"
+    fill="#ffffff"
+    stroke="url(#cloudStroke)"
+    stroke-width="2.05"
+    stroke-linejoin="round"
+    filter="url(#softShadow)"
+  />
+
+  <!-- horizontal woven band -->
+  <path
+    d="M7.0 14.4
+       H13.0
+       V11.9
+       H16.2
+       V14.4
+       H24.8
+       V17.4
+       H16.2
+       V21.2
+       H13.0
+       V17.4
+       H7.0
+       Z"
+    fill="#ffffff"
+    stroke="#0b3f79"
+    stroke-width="1.0"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M7.3 15.0
+       H13.6
+       V12.5
+       H15.2
+       V15.5
+       H24.2
+       V16.8
+       H15.2
+       V20.6
+       H13.6
+       V16.8
+       H7.3
+       Z"
+    fill="url(#cyan)"
+  />
+
+  <!-- vertical woven band -->
+  <path
+    d="M15.4 7.6
+       H18.5
+       V14.1
+       H22.5
+       V17.2
+       H18.5
+       V22.0
+       H15.4
+       Z"
+    fill="#ffffff"
+    stroke="#0b3f79"
+    stroke-width="1.0"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M16.0 8.0
+       H17.9
+       V14.7
+       H21.9
+       V16.6
+       H17.9
+       V21.4
+       H16.0
+       Z"
+    fill="url(#blue)"
+  />
+
+  <!-- lower left vertical woven tail -->
+  <path
+    d="M11.5 16.0
+       H14.6
+       V24.3
+       H11.5
+       Z"
+    fill="#ffffff"
+    stroke="#0b3f79"
+    stroke-width="1.0"
+    stroke-linejoin="round"
+  />
+  <path d="M12.1 16.6 H14.0 V23.8 H12.1 Z" fill="url(#cyan)"/>
+
+  <!-- subtle interlace highlights -->
+  <path d="M13.0 12.5 H15.2 V15.0 H13.0 Z" fill="#ffffff" opacity="0.82"/>
+  <path d="M16.0 14.7 H17.9 V16.6 H16.0 Z" fill="#f8fdff" opacity="0.96"/>
+  <path d="M18.5 14.7 H21.9 V16.6 H18.5 Z" fill="#dff6ff" opacity="0.72"/>
+</svg>
